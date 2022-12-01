@@ -1,0 +1,75 @@
+.container1{
+  padding-top:20px;
+  padding-bottom:30px;
+  text-align: center;
+  margin:auto;
+}
+main{
+  padding:20px;
+}
+.input-data{
+  padding: 12px 45px;
+  
+  margin: 10px;
+  border-radius: 15px;
+  font-size:16px;
+  border-color: black;
+  background-size: 40px;
+}
+.button{
+  border-radius: 20px;
+  padding:10px 18px;
+}
+.footer{
+  background-color:#1f1e1c;
+  color:whitesmoke;
+  align-items: center;
+  text-align: center;
+  padding:20px;
+}
+.footer-logo h3{
+  text-decoration :none;
+  color:whitesmoke;
+  font-size: 40px;
+  font-weight:400;
+  padding: 12px;
+  margin:auto;
+  justify-content: center;
+  text-align: center
+}
+.contact-us a{
+text-decoration: none;
+color: whitesmoke;
+padding:7px;
+font-size: 20px;
+}
+.contact-us a:hover,.contact-us a:focus{
+  color: darkgoldenrod;
+}
+.socials h3{
+  color:whitesmoke;
+  padding:12px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.socials a{
+  color: whitesmoke;
+  align-items: center;
+  font-size: 30px;
+  padding: 2px 12px;
+}
+.socials a:hover,.socials a:focus{
+  color: darkgoldenrod;
+}
+.footer-bottom{
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding :1px;
+  text-transform: uppercase;
+  font-size: 5px;
+}
+.footer-bottom span{
+  color: darkgoldenrod;
+}

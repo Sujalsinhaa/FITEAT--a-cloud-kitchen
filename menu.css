@@ -1,0 +1,151 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+footer{
+ background-color:#1f1e1c;
+}
+.navItem{
+  text-align: center;
+  justify-content: center;
+}
+.container1{
+  background-color: darkgoldenrod;
+  color: white;
+  background-image: linear-gradient(#F1C56C,#DAB097);
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 60px;
+  color: white;
+  position: relative;
+}
+.ele1{
+  position:absolute;
+  top: 100px;
+  left:80px;
+  font-size: 25px;
+}
+.container2{
+  text-align: center;
+  justify-content: center;
+  color: black;
+  padding: 40px;
+}
+.container2 h3{
+  font-size: 45px;
+  color: black;
+  font-weight: bold;
+  padding:20px;
+}
+.container2 h3:hover,.container2 h3:focus{
+  color: darkgoldenrod;
+}
+.container2 button{
+  margin:10px;
+  margin-bottom: 30px;
+}
+.container3{
+  background-color: darkgoldenrod;
+  background-image: linear-gradient(#F1C56C,#DAB097);
+  padding:40px;
+  text-align: center;
+  justify-content: center;
+  border-radius :20px;
+  border: none;
+}
+.container3 .icons{
+  filter: brightness (100);
+  padding:10px;
+}
+.footer{
+  background-color:#1f1e1c;
+  color:white;
+  align-items: center;
+  text-align: center;
+  
+}
+.footer-logo h3{
+  text-decoration :none;
+  color:white;
+  font-size: 40px;
+  font-weight:400;
+  padding: 12px;
+  margin:auto;
+  justify-content: center;
+  text-align: center
+}
+.contact-us a{
+text-decoration: none;
+color: white;
+padding:7px;
+font-size: 20px;
+}
+.contact-us a:hover,.contact-us a:focus{
+  color: darkgoldenrod;
+}
+.socials h3{
+  color:white;
+  padding:12px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.socials a{
+  color: white;
+  align-items: center;
+  font-size: 30px;
+  padding: 2px 12px;
+}
+.socials a:hover,.socials a:focus{
+  color: darkgoldenrod;
+}
+.footer-bottom{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding :1px;
+  text-transform: uppercase;
+  font-size: 5px;
+}
+.footer-bottom span{
+  color: darkgoldenrod;
+}
+
+@media only screen and (min-width:768px){
+  .ele1{
+    position:absolute;
+    top: 270px;
+    left: 200px;
+    font-size: 60px;
+  }
+  .container2 h3,.container2 h3:hover,.container2 h3:focus{
+    font-size: 70px;
+    padding:20px;
+  }
+  .container2 h4,h5{
+    font-size: 50px;
+    padding:15px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .button1{
+    padding: 30px;
+    font-size: 40px;
+    margin:12px;
+    border-radius: 12px;
+  }
+  .container3 h3{
+    font-size: 70px;
+    padding :20px;
+  }
+  .container3 p{
+    font-size: 25px;
+    padding :20px 5px;
+  }
+  .icons img{
+    width: 200px;
+  }
+}
+

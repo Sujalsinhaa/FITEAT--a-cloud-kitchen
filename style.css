@@ -1,0 +1,254 @@
+*{
+  margin:0px;
+  padding:0px;
+  
+}
+.navItem{
+  text-align: center;
+  justify-content: center;
+}
+.container1{
+  background-image: url("index.img/360_F_190580046_62ZnqP7FglGDID05aywtEdoi1v50A8C6.jpg");
+  width :100%;
+}
+
+.main-item{
+  padding:50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.main-item button{
+  padding:5px 10px;
+}
+.main-item img{
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  
+}
+h1{
+  font-weight: a;
+  font-size: 30px;
+  padding: 40px;
+  text-align: center;
+  margin-top: 10px;
+  color:black;
+}
+.p1{
+  font-weight: 500;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color:black;
+ 
+}
+.lightImg{
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+p{
+  font-weight: 300;
+  text-align: center;
+  padding:10px;
+  color :black;
+}
+.container3{
+  background-color: darkgoldenrod;
+  background-image: linear-gradient(#F1C56C,#DAB097);
+  padding:40px;
+  text-align: center;
+  justify-content: center;
+  border-radius :20px;
+  border: none;
+}
+.container3 h4{
+  font-size: 25px;
+}
+h4{
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 430;
+  color:black;
+}
+h2{
+  padding:15px;
+  text-align: center;
+  font-weight: a;
+  padding-bottom: 0px;
+  color :black;
+}
+.para2 .p1{
+  padding:15px;
+  color:black;
+}
+.container5{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin:5px 2px;
+  padding :10px;
+  border-radius:30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.img2{
+  border:none;
+  align-items:center;
+  justify-content: center;
+  width :100%;
+  
+}
+.container5 a{
+  text-decoration: none;
+  color:whitesmoke;
+  font-size: 20px;
+  text-align: center;
+}
+.container5 a:focus{
+  color: darkgoldenrod;
+}
+.container5 h3{
+  text-align: left;
+}
+.container5 .p3{
+  text-align: right;
+}
+.container5 .p2{
+  text-align: left;
+  padding :5px;
+  font-size: 12px;
+  color: whitesmoke;
+}
+
+.container6{
+  padding-top:30px;
+  padding-bottom:30px;
+  text-align: center;
+  margin:auto;
+}
+.container7{
+  padding-top:20px;
+  padding-bottom:30px;
+  text-align: center;
+  margin:auto;
+}
+.input-data{
+  padding: 12px 45px;
+  
+  margin: 10px;
+  border-radius: 15px;
+  font-size:16px;
+  border-color: black;
+  background-size: 40px;
+}
+.signup-btn{
+  border-radius: 20px;
+  padding:10px 18px;
+}
+.signup-btn:focus{
+  background-color: darkgoldenrod;
+}
+.footer{
+  background-color:#1f1e1c;
+  color:whitesmoke;
+  align-items: center;
+  text-align: center;
+  padding:20px;
+}
+.footer-logo h3{
+  text-decoration :none;
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight:400;
+  padding: 12px;
+  margin:auto;
+  justify-content: center;
+  text-align: center
+}
+.contact-us a{
+text-decoration: none;
+color: whitesmoke;
+padding:7px;
+font-size: 20px;
+}
+.contact-us a:hover,.contact-us a:focus{
+  color: darkgoldenrod;
+}
+.socials h3{
+  color:whitesmoke;
+  padding:12px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.socials a{
+  color: whitesmoke;
+  align-items: center;
+  font-size: 30px;
+  padding: 2px 12px;
+}
+.socials a:hover,.socials a:focus{
+  color: darkgoldenrod;
+}
+.footer-bottom{
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding :1px;
+  text-transform: uppercase;
+  font-size: 5px;
+}
+.footer-bottom span{
+  color: darkgoldenrod;
+}
+@media only screen and (min-width: 768px) {
+.container1 button{
+  padding :20px;
+  font-size: 30px;
+  margin:15px;
+}
+h1{
+  font-size: 90px;
+}
+.p1{
+  font-size: 25px;
+}
+p{
+  font-size: 20px;
+}
+h4{
+  font-size: 90px;
+}
+h2{
+  font-size:18px;
+}
+.container3 h4{
+  font-size: 40px;
+}
+.container6 h4{
+  font-size: 40px;
+}
+.container6 h2{
+  font-size: 30px;
+}
+
+ .text h4{
+   font-size: 50px;
+ }
+
+.container5 h3{
+  font-size: 60px;
+}
+.container5 .p2{
+  font-size: 20px;
+}
+.footer-logo h3{
+  font-size: 80px;
+}
+
+}

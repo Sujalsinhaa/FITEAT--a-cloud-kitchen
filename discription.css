@@ -1,0 +1,157 @@
+*{
+  padding:0px;
+  margin:0px;
+  border :border-box;
+}
+main{
+  padding: 20px 2px;;
+  
+}
+.section1{
+  background-color:grey;
+background-image: linear-gradient(#F1C56C,#DAB097);
+  border-radius: 30px;
+}
+
+.container1{
+  display :flex;
+  margin: 3px;
+}
+.container1 img {
+  width:100px;
+  margin:50px 0px;
+  margin-right: 9px;
+}
+.text1 h3{
+  font-size :20px;
+  color: whitesmoke;
+  margin: 60px 0px;
+  margin-bottom:10px;
+}
+.text1 p{
+  font-size: 10px;
+  color:whitesmoke;
+}
+.amount h3{
+font-size: 16px;
+margin: 70px 10px;
+margin-bottom: 10px;
+text-align: right;
+color: whitesmoke
+}
+.child1,.child3{
+  font-size: 15px;
+  padding:5px;
+  color: whitesmoke;
+  margin-left: 10px;
+}
+.child2{
+  padding:5px;
+  color:black;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.btngroup1{
+  padding:6px 15px;
+  margin-left :25px;
+}
+.btngroup2{
+  padding: 6px 35px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.di{
+  padding:100px;
+}
+
+.footer{
+  background-color:#1f1e1c;
+  color:whitesmoke;
+  align-items: center;
+  text-align: center;
+  padding:20px;
+}
+.footer-logo h3{
+  text-decoration :none;
+  color:whitesmoke;
+  font-size: 40px;
+  font-weight:400;
+  padding: 12px;
+  margin:auto;
+  justify-content: center;
+  text-align: center
+}
+.contact-us a{
+text-decoration: none;
+color: whitesmoke;
+padding:7px;
+font-size: 20px;
+}
+.contact-us a:hover,.contact-us a:focus{
+  color: darkgoldenrod;
+}
+.socials h3{
+  color:whitesmoke;
+  padding:12px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.socials a{
+  color: whitesmoke;
+  align-items: center;
+  font-size: 30px;
+  padding: 2px 12px;
+}
+.socials a:hover,.socials a:focus{
+  color: darkgoldenrod;
+}
+.footer-bottom{
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding :1px;
+  text-transform: uppercase;
+  font-size: 5px;
+}
+.footer-bottom span{
+  color: darkgoldenrod;
+}
+
+
+@media only screen and (min-width: 768px){
+  .container1 img{
+    width:250px;
+  }
+  .text1 h3{
+    font-size:60px;
+  }
+  .text1 p{
+    font-size: 20px;
+  }
+  .amount h3{
+    font-size: 30px;
+    margin-top: 120px;
+  }
+  .child2{
+    font-size: 15px;
+    padding:10px;
+    margin-left: 20px;
+  }
+  .child1,.child3{
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .btngroup{
+    text-align: center;
+  }
+  .btngroup1{
+    font-size: 20px;
+    padding: 12px;
+  }
+  .btngroup2{
+    font-size: 20px;
+    padding:12px;
+  }
+}
